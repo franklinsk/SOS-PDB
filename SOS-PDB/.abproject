@@ -1,0 +1,45 @@
+{
+  "ProjectName": "SOS-PDB",
+  "ProjectGuid": "4d2fff6a-3974-4d5e-a8ec-93d2052fc5a5",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.SOSPDB",
+  "DisplayName": "SOS-PDB",
+  "Author": "",
+  "Description": "SOS-PDB",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.7.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{b6cfd5ce-254f-4163-8c62-47182a966369}",
+  "WP8ProductID": "{e5a8e353-15a2-4436-a776-e25945eab1ce}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.SOSPDB",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
