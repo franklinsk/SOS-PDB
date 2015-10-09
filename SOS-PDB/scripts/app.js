@@ -25,8 +25,7 @@
             template: "#: LastName #, #: FirstName #"
         });
 
-
-        navigator.splashscreen.hide();
+		navigator.splashscreen.hide();
     }
 
     window.loginView = kendo.observable({
