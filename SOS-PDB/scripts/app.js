@@ -16,10 +16,10 @@
     function initialize() {
 
         var app = new kendo.mobile.Application(document.body, {
-            skin: "flat",
+            layout: "main-layout",
             transition: "slide"
         });
-
+        
         $("#children-list").kendoMobileListView({
             dataSource: childrenDataSource,
             template: "#: LastName #, #: FirstName #"
@@ -29,6 +29,8 @@
     }
 
     window.loginView = kendo.observable({
+        username: "shady",
+        password: "shady",
         submit: function () {
             if (!this.username) {
                 navigator.notification.alert("Ingresa tu nombre de usuario.");
